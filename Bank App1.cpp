@@ -9,9 +9,9 @@ int main(int argc, char *argv[]) {
     bool userFinished = false;
     char userFinishedChoice;
     while(!userFinished) {
-        std::cout << "Welcome to Big Booty Bank." << std::endl; 
-        std::cout << "Your current balance is: $" << accountBalance << std::endl; 
-        std::cout << "Enter the amount you want to deposit: $"; 
+        std::cout << "Welcome to Big Booty Bank." << std::endl;
+        std::cout << "Your current balance is: $" << accountBalance << std::endl;
+        std::cout << "Enter the amount you want to deposit: $";
         /* Read in next input from user */
         std::cin >> depositAmount;
         /* Update the account balance */
