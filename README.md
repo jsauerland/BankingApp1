@@ -4,10 +4,10 @@ This simple bank app in C++ was created for personal learning purposes. It's an 
 
 # Change History
 
-- **Version 0.001**
-  - Initial commit.
-  - Simple application that includes bank account and deposit.
+**Version 0.001**
+- Initial commit.
+- Simple application that includes bank account and deposit.
 
-- **Version 0.002**
-  - Added while loop to detect if user still needs to use the bank.
-  - User can now choose to close the application.
+**Version 0.002**
+- Added while loop to detect if user still needs to use the bank.
+- User can now choose to close the application.
