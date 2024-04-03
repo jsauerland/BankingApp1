@@ -1,3 +1,5 @@
+/* Simple bank app in C++ */
+
 #include <iostream>
 
 
@@ -17,13 +19,11 @@ int main(int argc, char *argv[]) {
         std::cout << "Your new balance is: $" << accountBalance << std::endl;
         std::cout << "Are you done yet? Y/N: ";
         std::cin >> userFinishedChoice;
-        if (userFinishedChoice == 'Y' || userFinishedChoice == 'y') {
-             userFinished = true; 
-            }
+        if (userFinishedChoice == 'Y' || userFinishedChoice == 'y') {
+            userFinished = true; 
+        }
     }
     std::cout << "Thanks for using Big Booty Bank. Real chill of you fam. Aight, I'm out. Peace!" << std::endl;
- 
-    return 0;
- 
-}
+return 0;
+    }
 
